@@ -15,7 +15,8 @@ jobs:
            node-version: 14
       - run: npm install -g yarn
       - run: yarn install --frozen-lockfile
-      - run: yarn upgrade  
+      - run: yarn upgrade --latest react-scripts
+      - run: yarn start
       
       
           
